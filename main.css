@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  padding: 8px 15px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+}
+
+button:hover {
+  border: 2px dashed;
+}
